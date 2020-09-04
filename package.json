@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npm run tsc",
+    "start": "npm run-script build && node server/server.js",
     "tsc": "tsc"
   },
   "keywords": [],
